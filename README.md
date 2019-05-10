@@ -1,0 +1,2 @@
+# JSDatatypeAlgorithms
+JS Datatype Algorithms
