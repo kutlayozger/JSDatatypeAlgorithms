@@ -3,6 +3,7 @@
 
 
 	const Stack = require("../stack"),
+	    Queue = require("../queue"),
 		assert = require("assert");
 
     describe('data type tests', function () {
@@ -15,4 +16,15 @@
 			assert.equal(stack.pop(), "b", "peek");
 			assert.equal(stack.size(), 1, "size");
 		});
+        it('Queue', function () {
+			var queue = new Queue();
+			assert.equal(queue.isEmpty(), true, 'isEmpty');
+			queue.enqueue("a");
+			queue.enqueue("b");
+			assert.equal(queue.size(), 2, "size");
+			//assert.equal(queue.peek(), "b", "peek");
+			assert.equal(queue.dequeue(), "a", "dequeue");
+			assert.equal(queue.size(), 1, "size");
+		});
+
 	});
