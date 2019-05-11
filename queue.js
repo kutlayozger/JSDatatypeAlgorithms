@@ -24,4 +24,4 @@ class Queue {
 }
 
 
-module.exports=Stack;
+module.exports=Queue;
