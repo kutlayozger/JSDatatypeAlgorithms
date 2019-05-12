@@ -1,4 +1,4 @@
-# Javascript Datatype Algorithms
+# Javascript Datatype and Algorithms
 JS Datatype Algorithms
 
 ## 1- Stack
