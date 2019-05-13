@@ -14,3 +14,7 @@ Queue methods are enqueue, dequeue, front, size, isEmpty. Types of queue are nor
 
 Set data structure is a kind of an array except there no duplicate items. Contains completely unique values.
 Implementation of sets some methods should contain has, values, add, remove, size, union, intersection, difference, subset.
+
+## 4- Linked List
+
+Linked List is a common data structure where elements are stored in a node. The node contains two key pieces of information the element itself and reference to the next node. 
