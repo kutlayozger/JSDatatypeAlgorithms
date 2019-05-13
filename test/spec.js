@@ -4,6 +4,7 @@
 
 	const Stack = require("../stack"),
 	    Queue = require("../queue"),
+	    LinkedList = require("../linkedlist"),
 		assert = require("assert");
 
     describe('data type tests', function () {
@@ -25,6 +26,15 @@
 			//assert.equal(queue.peek(), "b", "peek");
 			assert.equal(queue.dequeue(), "a", "dequeue");
 			assert.equal(queue.size(), 1, "size");
+		});
+        it('LinkedList', function () {
+			var linkedList = new LinkedList();
+			assert.equal(linkedList.size(), 0, "size");
+			assert.equal(linkedList.head(), null, "head");
+			linkedList.append(3);
+			assert.equal(linkedList.size(), 1, "size");
+			linkedliste.delete(3);
+			assert.equal(linkedList.size(), 0, "size");
 		});
 
 	});
