@@ -30,10 +30,10 @@
         it('LinkedList', function () {
 			var linkedList = new LinkedList();
 			assert.equal(linkedList.size(), 0, "size");
-			assert.equal(linkedList.head(), null, "head");
+			assert.equal(linkedList.first(), null, "first");
 			linkedList.append(3);
 			assert.equal(linkedList.size(), 1, "size");
-			linkedliste.delete(3);
+			linkedList.delete(3);
 			assert.equal(linkedList.size(), 0, "size");
 		});
 
