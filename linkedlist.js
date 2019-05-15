@@ -43,6 +43,9 @@ class LinkedList {
 	first() {
 		return this.head;
 	}
+	last() {
+		return this.tail;
+	}
 	size() {
 		var count = 0, selectNode = this.head;
 		while (selectNode) {
