@@ -5,6 +5,7 @@
 	const Stack = require("../stack"),
 	    Queue = require("../queue"),
 	    LinkedList = require("../linkedlist"),
+	    HashTable = require("../hashtable"),
 		assert = require("assert");
 
     describe('data type tests', function () {
@@ -35,6 +36,10 @@
 			assert.equal(linkedList.size(), 1, "size");
 			linkedList.delete(3);
 			assert.equal(linkedList.size(), 0, "size");
+		});
+        it('HashTable', function () {
+			var hashtable = new HashTable();
+			console.log(hashtable.hash("an example"));
 		});
 
 	});
